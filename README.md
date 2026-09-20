@@ -18,10 +18,10 @@
 
 Sou **Luan Rodrigues**, engenheiro de IA e desenvolvedor full-stack na **Infortronics**. Trabalho com inteligência artificial e desenvolvimento de software para web e mobile.
 
-Meu trabalho passa pelo backend em **C#/.NET**, pelas interfaces em **JavaScript, HTML e CSS** e pelo banco de dados **SQL Server**. No mobile, uso **Flutter com Dart**. **Java** também faz parte dos meus conhecimentos.
+Meu trabalho passa pelo backend em **C#/.NET**, pelas interfaces em **JavaScript, HTML e CSS** e pelos bancos de dados **SQL Server e PostgreSQL**. No mobile, uso **Flutter com Dart**. **Java** também faz parte dos meus conhecimentos.
 
 <p>
-  <img src="./assets/terminal.svg" width="100%" alt="Terminal animado com as áreas de atuação: engenharia de IA, web e mobile; C#/.NET, JavaScript, HTML, CSS, SQL Server, Flutter, Dart e Java." />
+  <img src="./assets/terminal.svg" width="100%" alt="Terminal animado com as áreas de atuação: engenharia de IA, web e mobile; C#/.NET, JavaScript, HTML, CSS, SQL Server, PostgreSQL, Flutter, Dart e Java." />
 </p>
 
 ## Minha stack
@@ -32,7 +32,7 @@ Meu trabalho passa pelo backend em **C#/.NET**, pelas interfaces em **JavaScript
 | **Backend** | `C#` · `.NET` |
 | **Web** | `JavaScript` · `HTML` · `CSS` |
 | **Mobile** | `Flutter` · `Dart` |
-| **Banco de dados** | `SQL Server` |
+| **Banco de dados** | `SQL Server` · `PostgreSQL` |
 | **Outros conhecimentos** | `Java` |
 
 ## Onde trabalho

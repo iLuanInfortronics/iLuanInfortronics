@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="252" viewBox="0 0 1200 252" role="img" aria-labelledby="titulo descricao">
   <title id="titulo">Stack de Luan Rodrigues</title>
-  <desc id="descricao">Digitação animada das tecnologias: C#/.NET, SQL Server, JavaScript, HTML, CSS, Flutter, Dart e Java.</desc>
+  <desc id="descricao">Digitação animada das tecnologias: C#/.NET, SQL Server, PostgreSQL, JavaScript, HTML, CSS, Flutter, Dart e Java.</desc>
   <style>
     /* #region Terminal e tipografia */
     :root { --fundo: #0b1c30; --texto: #e7f0ff; --azul: #79b8ff; --ambar: #ffc56e; --borda: #29435e; }
@@ -24,7 +24,7 @@
   <text x="1149" y="32" text-anchor="end">UTF-8</text>
   <text x="30" y="92" class="comando">&gt; perfil.exibir()</text>
   <g class="linha"><text x="30" y="132"><tspan fill="#79b8ff">atuação </tspan> engenharia de IA + desenvolvimento full-stack</text></g>
-  <g class="linha segunda"><text x="30" y="169"><tspan fill="#79b8ff">web     </tspan> C# / .NET / SQL Server / JavaScript / HTML / CSS</text></g>
+  <g class="linha segunda"><text x="30" y="169"><tspan fill="#79b8ff">web     </tspan> C# / .NET / SQL Server / PostgreSQL / JavaScript / HTML / CSS</text></g>
   <g class="linha terceira"><text x="30" y="206"><tspan fill="#79b8ff">mobile  </tspan> Flutter / Dart · também: Java</text></g>
   <rect x="30" y="224" width="11" height="3" fill="#ffc56e" class="cursor"/>
 </svg>

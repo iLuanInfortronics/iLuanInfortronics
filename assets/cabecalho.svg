@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">Luan Rodrigues — Engenharia de IA e desenvolvimento full-stack</title>
+  <desc id="descricao">Circuitos animados conectam inteligência artificial, web, mobile e dados.</desc>
+  <defs>
+    <pattern id="grade" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1c3552" stroke-width="0.5"/></pattern>
+    <linearGradient id="fundo" x2="1" y2="1"><stop stop-color="#0b1c30"/><stop offset="1" stop-color="#132d48"/></linearGradient>
+  </defs>
+  <style>
+    /* #region Identidade visual */
+    :root { --texto: #f2f6ff; --suave: #b3c7df; --azul: #79b8ff; --ambar: #ffc56e; --trilha: #375570; }
+    text { font-family: 'Segoe UI', sans-serif; fill: var(--texto); }
+    .rotulo { font-family: Consolas, monospace; font-size: 17px; letter-spacing: 2px; fill: var(--suave); }
+    .trilha { fill: none; stroke: var(--trilha); stroke-width: 2; }
+    .sinal { fill: none; stroke: var(--azul); stroke-width: 3; stroke-dasharray: 20 280; animation: percorrer 7s linear infinite; }
+    .orbita { fill: none; stroke: var(--azul); stroke-width: 2; stroke-dasharray: 38 18; transform-origin: 944px 176px; animation: girar 32s linear infinite; }
+    .pulso { fill: var(--ambar); animation: pulsar 4s ease-in-out infinite; }
+    /* #endregion */
+    /* #region Movimento acessível */
+    @keyframes percorrer { to { stroke-dashoffset: -600; } }
+    @keyframes girar { to { transform: rotate(360deg); } }
+    @keyframes pulsar { 50% { opacity: .4; } }
+    @media (prefers-reduced-motion: reduce) { .sinal, .orbita, .pulso { animation: none; } }
+    /* #endregion */
+  </style>
+  <rect width="1200" height="360" rx="18" fill="url(#fundo)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#grade)"/>
+  <path d="M0 1H1200" stroke="#79b8ff" stroke-width="3"/>
+  <path d="M52 61H86" stroke="#ffc56e" stroke-width="3"/>
+  <text x="101" y="67" class="rotulo">PORTFÓLIO / INFORTRONICS</text>
+  <text x="50" y="151" font-size="68" font-weight="700" letter-spacing="-2">Luan Rodrigues<tspan fill="#ffc56e">.</tspan></text>
+  <text x="54" y="201" font-size="27">Engenheiro de IA</text>
+  <text x="54" y="238" font-size="27">Desenvolvedor full-stack</text>
+  <text x="54" y="310" class="rotulo">C# / .NET / JAVASCRIPT / FLUTTER / JAVA</text>
+  <path class="trilha" d="M747 81H828L882 135 M1002 135L1057 81H1147 M747 271H828L882 218 M1002 218L1057 271H1147"/>
+  <path class="sinal" d="M747 81H828L882 135 M1002 135L1057 81H1147 M747 271H828L882 218 M1002 218L1057 271H1147"/>
+  <circle cx="944" cy="176" r="83" class="orbita"/>
+  <path d="M944 113L999 145V207L944 239L889 207V145Z" fill="#152f4c" stroke="#79b8ff" stroke-width="2"/>
+  <text x="944" y="192" text-anchor="middle" font-size="45" font-weight="700">IA</text>
+  <circle cx="747" cy="81" r="5" class="pulso"/><circle cx="1147" cy="81" r="5" class="pulso"/>
+  <circle cx="747" cy="271" r="5" class="pulso"/><circle cx="1147" cy="271" r="5" class="pulso"/>
+  <text x="747" y="57" class="rotulo">WEB</text><text x="1147" y="57" text-anchor="end" class="rotulo">MOBILE</text>
+  <text x="747" y="307" class="rotulo">BACKEND</text><text x="1147" y="307" text-anchor="end" class="rotulo">DADOS</text>
+</svg>
